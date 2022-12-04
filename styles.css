@@ -150,7 +150,6 @@
     padding: 50px;
     text-align: center;
     line-height: 200%;
-    font-family: "Montserrat", sans-serif;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
@@ -158,7 +157,6 @@
 footer {
     background-color: #B99095 ;
     border: 3px solid #B99095;
-    font-family: "Montserrat", sans-serif;
     color: teal;
   }
   
@@ -176,7 +174,6 @@ footer ul {
 footer li {
     display: flex;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
    }
 
 footer li a:active {
@@ -192,7 +189,6 @@ footer li a:hover {
   width: 45%;
   text-align: justify;
   padding: 5%;
-  font-family: "Montserrat", sans-serif;
 }
 
 /* Clear floats after the columns */
@@ -390,5 +386,10 @@ input[type=checkbox]{
   
   }
   
+  }
+
+  .mySlides {
+    width: 100%;
+    height: auto;
   }
 
