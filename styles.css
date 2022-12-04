@@ -247,12 +247,15 @@ h3 {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 @media screen and (max-width: 600px) {
+  .info { width: 80%;}
   .column {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .info {  width: 100%;
+    padding: 0;}
   .column {
     width: 100%;
     padding: 0;
